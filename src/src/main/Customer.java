@@ -90,7 +90,7 @@ public class Customer extends Person{
         input.nextLine();
     }
     // Create a report
-    public void makeReport(String username) throws Exception {
+    public void makeReport(String username) {
         System.out.println("---------REPORT---------");
         String id;
         do {

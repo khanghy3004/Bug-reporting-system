@@ -131,7 +131,7 @@ public class Admin extends Customer {
         }
     }
     // Method insert new bill
-    public void insertNewBill() throws Exception {
+    public void insertNewBill() {
         String user;
         do {
             System.out.println("- Enter username: ");

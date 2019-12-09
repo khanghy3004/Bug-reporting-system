@@ -24,6 +24,7 @@ public class Main {
             System.out.println("| 4. Display my report  |");
             System.out.println("| 5. Log out            |");
             System.out.println("-------------------------");
+            System.out.print("Enter your option (1-5): ");
             String choice = input.nextLine();
             switch(choice) {
                 case "1": KH.displayProfile(); break;
@@ -46,6 +47,7 @@ public class Main {
             System.out.println("| 3. Make a report                      |");
             System.out.println("| 4. Log out                            |");
             System.out.println("-----------------------------------------");
+            System.out.print("Enter your option (1-4): ");
             String choice = input.nextLine();
             switch(choice) {
                 case "1": 
@@ -74,6 +76,7 @@ public class Main {
             System.out.println("| 3. Report Handling                    |");
             System.out.println("| 4. Log out                            |");
             System.out.println("-----------------------------------------");
+            System.out.print("Enter your option (1-4): ");
             String choice = input.nextLine();
             switch(choice) {
                 case "1": 
@@ -97,6 +100,7 @@ public class Main {
             System.out.println("1. My profile");
             System.out.println("2. Insert a new customer bill");
             System.out.println("3. Log out");
+            System.out.print("Enter your option (1-3): ");
             String choice = input.nextLine();
             switch(choice) {
                 case "1": 

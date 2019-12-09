@@ -296,7 +296,7 @@ public class ConnectionDB {
             String pass = "123456";
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             cnn = DriverManager.getConnection(uRL, user, pass);
-            System.out.println("Success!");
+            //System.out.println("Success!");
         } catch (ClassNotFoundException | SQLException e) {
             System.out.println("Cannot connect. "+e.getMessage());
         }
